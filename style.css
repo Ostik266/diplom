@@ -1,0 +1,141 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ @font-face{
+     font-family: "PT-SANS";
+     src: url(fonts/PT_Sans.ttf) format('truetype');
+ }
+ body {
+     width: 100%;
+     min-width: 800px;
+     background-color: #DEB887;
+ }
+ header{
+     min-width: 600px;
+     padding: 5px;
+     height: 150px;
+     background: url(img/logo150.png) no-repeat center;
+     background-color: aliceblue;
+ }
+ div.icon {
+     width: 50px;
+     height: 50px;
+     float: right;
+     margin-right: 5px; 
+     margin-top: 2px;
+ }
+ div.title{
+    
+     margin-right: 100px;
+     width: 120px;
+     padding: 1px;
+     float: left;
+ 
+ }
+ a {
+     text-decoration: none;
+     color: black;
+     font-family: "PT-SANS";
+ }
+
+ div.nav{
+     width: auto;
+    padding: 1px;
+    margin-right: 5px; 
+    float: right;
+ }
+ div.logo {
+     width: 90px;
+     height: 115px;
+     float: left;
+     margin-right: 80%;
+     text-align: center;
+ }
+ img.z_logo {
+     position: inherit;
+     vertical-align: middle;
+ }
+ div.nezalezhnosti{ 
+    border: 1px solid black;
+     width: 100%;
+     height: 420px;
+     background: url(img/z_nez.jpg) no-repeat center;
+   text-align: center;
+ }
+ div.kozlova{
+    border: 1px solid black;
+    width: 100%;
+    height: 420px;
+    background: url(img/z_koz.jpg) no-repeat center;
+  text-align: center;
+ }
+ div.text{
+     margin-left: auto;
+     margin-right: auto;
+     width: fit-content;
+     background: rgba(245, 180, 124, 0.5);
+ }
+ div.button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    border: 1px solid black;
+    font-size: 14pt;
+    padding: 3px;
+    background: rgba(245, 180, 124, 0.5);
+ }
+ h1{
+     font-family: "PT-SANS";
+     margin: 10px;
+ }
+ footer {
+    margin-top: 0.5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    background: url(img/logo.png) no-repeat center;
+    background-color: aliceblue;
+ }
+ div.kont-1{
+     float: left;
+ }
+ div.kont-2{
+     float: right;
+ }
+ .map {
+     width: 100%;
+     height: 400px;
+     margin: 20px auto;
+ }
+div.PersonalAbout{
+    font-family: "PT-SANS";
+    float: left;
+    width: 600px;
+    height: 700px;
+    margin: 20px;
+
+}
+div.slider{
+    float: right;
+    width: 600px;
+    height: 700px;
+    margin: 30px;
+    text-align: center;
+}
+div.body{
+    width: 100%;
+    height: 800px;
+}
+div.contacts{
+    padding: 5px;
+    font-family: 'PT SANS';
+}
+div.contacts > div{
+    border: 1px solid gray;
+    padding: 3px;
+}
+a.mapB{
+    color: blue;
+}

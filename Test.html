@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<div id="elements"></div>
+<script>
+var str="";
+for (var i=0; i < localStorage.length; i++) {
+	var items = localStorage.getItem(key(i));
+  str += "Ключ: " + localStorage.key(i) + "; Значение: " + items  + ".<br>";
+}
+document.getElementById("elements").innerHTML = str;
+</script>
+	</body>
+</html>

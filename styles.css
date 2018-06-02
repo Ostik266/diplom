@@ -1,0 +1,80 @@
+/*Стили для документа */
+.container
+{
+	background: white;
+	width: 400px;
+	margin:20px 30% auto;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	
+	
+}
+select.add-address
+{
+	width: 400px;
+	height: 30px;
+	border: 1px solid #afabab;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: Arial sans-serif;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	
+}
+.PName{
+	text-align: center;
+	padding: 1px 0px;
+	width: 191px;
+	height: 15px;
+	border: 1px solid #afabab;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.Phone{
+	text-align: center;
+	padding: 1px 0px;
+	width: 191px;
+	margin-left: 10px;
+	height: 15px;
+	border: 1px solid #afabab;
+	border-radius: 5px;
+}
+.input-button
+{
+	width: 100%;
+	border: 1px solid #4cae4c;
+	border-radius: 5px;
+	background-color: #5cb85c;
+	color: white;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+.time
+{
+	text-align: center;
+	padding: 1px 0px;
+	width: 191px;
+	margin-left: 10px;
+	height: 15px;
+	border: 1px solid #afabab;
+	border-radius: 5px;
+	
+}
+.item
+{
+	margin-top: 10px;
+	width: 387px;
+	border: 1px solid #0e0993;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.empty 
+{
+	
+	border: 1px solid #820505 !important;
+	
+}
